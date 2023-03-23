@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  color: #585858;
+}
+ul {
+  padding-left: 23px;
+}
+.heading-top {
+  text-align: center;
+  padding-top: 30px;
+}
+.heading h3 {
+  font-size: 45px;
+}
+#sorting {
+  background: #eb5757;
+  border: navajowhite;
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+/* Card css */
+.card {
+  padding: 15px 15px 0 15px;
+  min-height: 546px;
+}
+.card-img-top {
+  border-radius: 15px;
+}
+.card-body h5 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.card-body h6 {
+  font-weight: 600;
+  font-size: 17px;
+}
+.card-footer {
+  background-color: #fff;
+}
+.modal-link-btn {
+  background: #fef7f7;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  color: #eb5757;
+}
+.see-more-btn button {
+  background: #eb5757;
+  color: #fff;
+  padding: 12px 20px;
+}
+.see-more-btn button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Modal */
+.modal-left-part {
+  background: #fef7f7;
+  border-radius: 20px;
+  padding: 30px;
+}
+.modal-right-part {
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  border-radius: 20px;
+  padding: 20px;
+}
+.pricing {
+  margin: 25px 0 !important;
+  justify-content: space-between;
+}
+.basic,
+.pro,
+.contact {
+  background: #fff;
+  border-radius: 20px;
+  color: #03a30a;
+  text-align: center;
+  font-weight: 700;
+  padding: 15px 15px 0px 15px;
+  font-size: 16px;
+}
+.basic p {
+  color: #03a30a;
+}
+.pro p {
+  color: #f28927;
+}
+.contact p {
+  color: #eb5757;
+}
+
+.features-integration {
+  justify-content: space-between;
+}
+.features-part h4,
+.integration-part h4 {
+  font-weight: 600 !important;
+}
+.yes-accuracy {
+  background: #eb5757;
+  display: inline-block;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 49px;
+  right: 100px;
+  font-weight: 600;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-footer {
+  border-top: none;
+}

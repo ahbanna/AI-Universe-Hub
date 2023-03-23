@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Universe Hub</title>
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+  <header></header>
+  <main class="container">
+    <div class="heading-top">
+      <div class="heading">
+        <h3>AI Universe Hub</h3>
+      </div>
+      <div>
+        <button id="sorting">Sort by date</button>
+      </div>
+    </div>
+
+    <!-- All news starts -->
+    <section class="news-area">
+      <div id="all-news-container" class="row row-cols-1 row-cols-md-3 g-4">
+      </div>
+    </section>
+    <!-- All news end -->
+
+    <!-- Modal starts -->
+    <div class="modal fade" id="single-news-modal" tabindex="-1" aria-labelledby="single-news-modalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered mw-100 w-75">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="single-news-modal-body" class="modal-body">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal end -->
+
+    <!-- See more starts -->
+    <div id="see-more" class="see-more-btn text-center m-5">
+      <button id="see-more-btn" class="btn">See More</button>
+    </div>
+    <!-- See more end -->
+
+    <!-- spinner area starts -->
+    <section id="loader" class="spinner-area d-none">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-success" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </section>
+    <!-- spinner area end -->
+
+  </main>
+
+
+  <!-- All JS here -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/e09948cd07.js" crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/test.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+@media only screen and (max-width: 576px) {
+  h4 {
+    font-size: 18px;
+  }
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  li {
+    font-size: 15px;
+  }
+  p {
+    margin-bottom: 5px;
+  }
+  #single-news-modalLabel {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .features-part {
+    margin-top: 20px;
+  }
+  .pricing {
+    margin-top: 15px;
+  }
+  .basic,
+  .pro,
+  .contact {
+    padding: 10px;
+  }
+  .modal-right-part img {
+    height: 300px !important;
+    width: 300px !important;
+  }
+  .yes-accuracy {
+    top: 63%;
+    right: 71px;
+    font-size: 15px;
+  }
+  .modal-dialog {
+    margin: auto !important;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+  .features-integration {
+    text-align: center;
+  }
+  .examples {
+    margin-top: 18px;
+  }
+}
